@@ -25,7 +25,6 @@ func (sdc *SDC) ConvertToHeaderItem() *requests.HeaderItem {
 func (sdc *SDC) ConvertToHeader() *requests.Header {
 	data := sdc.XXXXX
 	return &requests.Header{
-		XXXXX: dataXXXXX.XXXXX,
 		XXXXX: data.XXXXX,
 	}
 }
