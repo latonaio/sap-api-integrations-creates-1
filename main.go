@@ -27,7 +27,7 @@ func main() {
 	accepter := getAccepter(inputSDC)
 	headerItem := inputSDC.ConvertToHeaderItem()
 
-	caller.AsyncPostPurchaseOrder(
+	caller.AsyncPostXXXXXXXXXX(
 		headerItem,
 		accepter,
 	)

@@ -30,7 +30,7 @@ func NewSAPAPICaller(baseUrl, sapClientNumber string, requestClient *sap_api_req
 		log:             l,
 	}
 }
-func (c *SAPAPICaller) AsyncPostPurchaseOrder(
+func (c *SAPAPICaller) AsyncPostXXXXXXXXXX(
 	headerItem *requests.HeaderItem,
 	accepter []string) {
 	wg := &sync.WaitGroup{}
